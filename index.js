@@ -21,7 +21,7 @@ function drawAllHands(ctx) {
     let hAngle = pi/180*(30*h);
     drawHand(hAngle, 60, 6, "black", ctx);
     drawHand(mAngle, 106, 4, "black", ctx);
-    drawHand(sAngle, 129, 2, "red", ctx);
+    drawHand(sAngle, 129, 2, "grey", ctx);
 }
 
 function drawHand(angle,len,width,color,ctx) {
